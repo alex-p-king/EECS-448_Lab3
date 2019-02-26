@@ -45,4 +45,6 @@ function showSlide(){
     }
     slide[slideNum-1].style.display = "block";
     console.log("show slide function triggered")
-    }
+}
+
+// Exercise 3
