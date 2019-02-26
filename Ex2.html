@@ -9,30 +9,34 @@
 
 <body>
     <div class="slideshow-container">
+        <!-- Slide 0 -->
+        <div class="slide0">
+                <h1>Click Either Button to Begin</h1>
+            </div>
         <!-- Slide 1 -->
-        <div class="slides">
+        <div class="slides slide1">
             <img src="Images\KTM450sx-f_1.jpg" height=500px width=700px>
         </div>
         <!-- Slide 2 -->
-        <div class="slides">
+        <div class="slides slide2">
             <img src="Images\KTM450sx-f_2.jpg" height=500px width=700px>
         </div>
         <!-- Slide 3 -->
-        <div class="slides">
+        <div class="slides slide3">
             <img src="Images\KTM450sx-f_3.jpg" height=500px width=700px>
         </div>
         <!-- Slide 4 -->
-        <div class="slides">
+        <div class="slides slide4">
             <img src="Images\KTM450sx-f_4.jpg" height=500px width=700px>
         </div>
         <!-- Slide 5 -->
-        <div class="slides">
+        <div class="slides slide5">
             <img src="Images\KTM450sx-f_5.jpg" height=500px width=700px>
         </div>
         <!--Slideshow Controls-->
         <div class="slideshow-controls">
-          <button onclick="lastSlide()">Previous</button>
-          <button onclick="nextSlide()">Next</button>
+          <button onclick="lastSlide(); showSlide();">Previous</button>
+          <button onclick="nextSlide(); showSlide();">Next</button>
         </div>
 
       <a href="Index.html">Exercise 1</a>

@@ -15,6 +15,7 @@ function validate(){
 
 //Exercise 2
 let slideNum = 1;
+let initialState = 0;
 
 function lastSlide(){
     if(slideNum == 1){
@@ -36,3 +37,12 @@ function nextSlide(){
         console.log(slideNum);
     }
 }
+function showSlide(){
+    let slide = document.getElementsByClassName("slides");
+    //initialize all slides to not be displayed
+    for(i = 0; i < slide.length; i++){
+        slide[i].style.display = "none";
+    }
+    slide[slideNum-1].style.display = "block";
+    console.log("show slide function triggered")
+    }

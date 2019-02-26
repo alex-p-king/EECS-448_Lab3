@@ -4,7 +4,12 @@
 }
 .slides{
     text-align: center;
+    display: none;
 }
-.back, .next{
+.slide0{
+    display: block;
+    text-align: center;
+}
+.slideshow-controls{
     text-align: center;
 }
