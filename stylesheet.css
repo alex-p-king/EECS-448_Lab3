@@ -2,6 +2,10 @@
 .main-container{
     text-align: center;
 }
+.main-container3{
+    text-align: center;
+    background-color: rgb(28, 34, 94);
+}
 .slides{
     text-align: center;
     display: none;
@@ -12,4 +16,15 @@
 }
 .slideshow-controls{
     text-align: center;
+}
+.anchorTags{
+    text-align: center;
+    margin-top: 20em;
+}
+.profileImage{
+    height: 200px;
+    width: 200px;
+    border-bottom-width: 5px
+    border-style: inset;
+    
 }
