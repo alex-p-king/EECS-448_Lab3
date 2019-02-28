@@ -9,6 +9,10 @@ body{
     color: darkorange;
     position: relative;
     bottom: 200px;
+
+}
+a:hover{
+    color: dodgerblue;
 }
 h1{
     font-family: Helvetica, Arial, sans-serif;
@@ -17,7 +21,7 @@ h1{
 }
 p{
     font-family: Helvetica, Arial, sans-serif;
-    color: rgb(197, 197, 197);
+    color: black;
     font-size: 150%;
     text-justify: auto;
 }
@@ -54,7 +58,25 @@ p{
     border-radius: 100%;
 }
 .about-me{
+    position: relative;
+    bottom: 200px;
     margin-left: 100px;
     margin-right: 100px;
     
+}
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+#favorite-website-container{
+    position: relative;
+    bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#embedded-video{
+    position: relative;
+    bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
