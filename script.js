@@ -47,4 +47,25 @@ function showSlide(){
     console.log("show slide function triggered")
 }
 
-// Exercise 3
+// Exercise 4
+function accept(){
+    let B_rValue = document.getElementById("border-red-value").value;
+    let B_gValue = document.getElementById("border-green-value").value;
+    let B_bValue = document.getElementById("border-blue-value").value;
+    let B_wValue = document.getElementById("width-value").value;
+    let Bk_rValue = document.getElementById("background-red-value").value;
+    let Bk_gValue = document.getElementById("background-red-value").value;
+    let Bk_bValue = document.getElementById("background-red-value").value;
+    paragraph.style.borderColor = "rgb( B_rValue, B_gValue, B_bValue )";
+    paragraph.style.borderWidth = "B_wValue";
+    console.log(B_rValue);
+    console.log(B_gValue);
+    console.log(B_bValue);
+    console.log(B_wValue);
+    console.log(Bk_rValue);
+    console.log(Bk_gValue);
+    console.log(Bk_bValue);
+
+
+}
+
