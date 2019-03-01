@@ -54,9 +54,9 @@ function accept(){
     let B_bValue = document.getElementById("border-blue-value").value;
     let B_wValue = document.getElementById("width-value").value;
     let Bk_rValue = document.getElementById("background-red-value").value;
-    let Bk_gValue = document.getElementById("background-red-value").value;
-    let Bk_bValue = document.getElementById("background-red-value").value;
-    paragraph.style.borderColor = "rgb( B_rValue, B_gValue, B_bValue )";
+    let Bk_gValue = document.getElementById("background-green-value").value;
+    let Bk_bValue = document.getElementById("background-blue-value").value;
+    paragraph.style.border = "thick solid rgb(" + B_rValue + "," + B_gValue + "," + B_bValue + ")";
     paragraph.style.borderWidth = "B_wValue";
     console.log(B_rValue);
     console.log(B_gValue);
