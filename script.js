@@ -58,7 +58,7 @@ function accept(){
     let Bk_bValue = document.getElementById("background-blue-value").value;
     paragraph.style.border =  "thick solid rgb(" + B_rValue + "," + B_gValue + "," + B_bValue + ")";
     paragraph.style.borderWidth = " "+ B_wValue +" ";
-    m_paragraph.style.backgroundColor = "rgb(" + Bk_rValue + "," + Bk_gValue + "," + Bk_bValue + ")";
+    paragraph.style.backgroundColor = "rgb(" + Bk_rValue + "," + Bk_gValue + "," + Bk_bValue + ")";
     console.log(B_rValue);
     console.log(B_gValue);
     console.log(B_bValue);
